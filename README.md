@@ -17,6 +17,7 @@ An **ESP32** (running on an [LC-Relay-ESP32-4R-A2 board](https://amzn.eu/d/3VqQO
 *   **Sensor:** [BlueLevel+](www.bluelevel.deprodukte/bluelevel-plus/) (Contactless Laser/ToF, 0V = Empty, 2.5V = Full)
 *   **Power Supply:** 12V DC from the motorhome board net.
 *   **Programming:** [FTDI USB-to-TTL Adapter](www.amazon.de) (set to 3.3V for data).
+*   **Housing:** A 3D-printed housing from [thingiverse](https://www.thingiverse.com/thing:7095873) was used. However, any other housing can also be used.
 
 ## Wiring
 1.  **Sensor:** Connect BlueLevel+ signal output (0-2.5V) to **GPIO 34**.

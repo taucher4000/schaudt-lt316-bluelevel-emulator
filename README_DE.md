@@ -17,6 +17,7 @@ Ein **ESP32** (auf einem [LC-Relay-ESP32-4R-A2 Board](https://amzn.eu/d/3VqQObJ)
 *   **Sensor:** [BlueLevel+](www.bluelevel.deprodukte/bluelevel-plus/) (Berührungsloser Laser-Sensor, 0V = Leer, 2,5V = Voll)
 *   **Stromversorgung:** 12V DC aus dem Wohnmobil-Bordnetz.
 *   **Programmierung:** [FTDI USB-zu-TTL Adapter](www.amazon.de) (auf 3,3V eingestellt).
+*   **Gehäuse:** Als Gehäuse wurde ein 3D gedrucktes Gehäuse von [thingiverse](https://www.thingiverse.com/thing:7095873) verwendet. Es kann aber auch jedes andere Gehäuse verwendet werden.
 
 ## Verkabelung
 1.  **Sensor:** Signalausgang des BlueLevel+ mit **GPIO 34** verbinden.
