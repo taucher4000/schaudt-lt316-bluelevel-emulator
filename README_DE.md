@@ -1,3 +1,5 @@
+**[🇬🇧  english version of this description](README.md)**
+
 # ESP32 Wassertank-Sensor Emulator für Schaudt LT 316
 
 Dieses Projekt emuliert eine Standard-5-Stab-Wassertanksonde für das [Schaudt LT 316](www.schaudt.gmbh) Anzeige-Panel. Es ermöglicht den Austausch der originalen mechanischen Stabsonde gegen einen modernen, hochpräzisen **berührungslosen Laser-Sensor (ToF)** wie den [BlueLevel+](www.bluelevel.de).

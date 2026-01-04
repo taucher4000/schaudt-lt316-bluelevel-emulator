@@ -1,3 +1,5 @@
+**[🇩🇪 Deutsche Version der Beschreibung](README_DE.md)**
+
 # ESP32 Water Tank Sensor Emulator for Schaudt LT 316
 
 This project emulates a standard 5-pin water tank probe for the [Schaudt LT 316](www.schaudt.gmbh) display panel. It allows you to replace the original mechanical rod probe with a modern, high-precision **contactless laser sensor (ToF)** like the [BlueLevel+](www.bluelevel.de).
