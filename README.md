@@ -26,7 +26,7 @@ An **ESP32** (running on an [LC-Relay-ESP32-4R-A2 board](https://amzn.eu/d/3VqQO
     *   Connect the **NO** (Normally Open) terminals to the corresponding level pins (25%, 50%, 75%, 100%) on the Schaudt input.
 
 ## How to Flash
-1.  Install the [ESP32 Core for Arduino](https://https://github.com/espressif/arduino-esp32/releases).
+1.  Install the [ESP32 Core for Arduino](https://github.com/espressif/arduino-esp32/releases).
 2.  Connect the FTDI adapter (TX to RX, RX to TX, GND to GND).
 3.  Hold the **IO0** button, press **Reset**, and release **IO0** to enter download mode.
 4.  Upload the code using the [Arduino IDE](https://www.arduino.cc) (Board: "ESP32 Dev Module").
