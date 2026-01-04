@@ -2,7 +2,7 @@
 
 # ESP32 Wassertank-Sensor Emulator für Schaudt LT 316
 
-Dieses Projekt emuliert eine Standard-5-Stab-Wassertanksonde für das [Schaudt LT 316](www.schaudt.gmbh) Anzeige-Panel. Es ermöglicht den Austausch der originalen mechanischen Stabsonde gegen einen modernen, hochpräzisen **berührungslosen Laser-Sensor (ToF)** wie den [BlueLevel+](www.bluelevel.de).
+Dieses Projekt emuliert eine Standard-5-Stab-Wassertanksonde für das [Schaudt LT 316](https://www.schaudt.gmbh) Anzeige-Panel. Es ermöglicht den Austausch der originalen mechanischen Stabsonde gegen einen modernen, hochpräzisen **berührungslosen Laser-Sensor (ToF)** wie den [BlueLevel+](https://www.blue-battery.com/product-page/bluelevel).
 
 ## Das Problem
 Originale Wassertanks in Wohnmobilen (z.B. Weinsberg/Knaus) nutzen einfache Stabsonden. Das Schaudt LT 316 Panel erkennt den Füllstand, indem es prüft, welche Stäbe durch das Wasser gegen Masse kurzgeschlossen werden. Moderne Laser-Sensoren wie der BlueLevel+ liefern ein Spannungssignal (0–2,5V), das vom Schaudt-Panel nicht direkt verarbeitet werden kann.
@@ -14,9 +14,9 @@ Ein **ESP32** (auf einem [LC-Relay-ESP32-4R-A2 Board](https://amzn.eu/d/3VqQObJ)
 
 ## Hardware-Anforderungen
 *   **Mikrocontroller:** ESP32 (Bauform: [LC-Relay-ESP32-4R-A2](https://amzn.eu/d/3VqQObJ))
-*   **Sensor:** [BlueLevel+](www.bluelevel.deprodukte/bluelevel-plus/) (Berührungsloser Laser-Sensor, 0V = Leer, 2,5V = Voll)
+*   **Sensor:** [BlueLevel+](https://www.blue-battery.com/product-page/bluelevel) (Berührungsloser Laser-Sensor, 0V = Leer, 2,5V = Voll)
 *   **Stromversorgung:** 12V DC aus dem Wohnmobil-Bordnetz.
-*   **Programmierung:** [FTDI USB-zu-TTL Adapter](www.amazon.de) (auf 3,3V eingestellt).
+*   **Programmierung:** [FTDI USB-zu-TTL Adapter](https://amzn.eu/d/bBN6eX9) (auf 3,3V eingestellt).
 *   **Gehäuse:** Als Gehäuse wurde ein 3D gedrucktes Gehäuse von [thingiverse](https://www.thingiverse.com/thing:7095873) verwendet. Es kann aber auch jedes andere Gehäuse verwendet werden.
 
 ## Verkabelung
@@ -26,7 +26,7 @@ Ein **ESP32** (auf einem [LC-Relay-ESP32-4R-A2 Board](https://amzn.eu/d/3VqQObJ)
     *   Die **NO**-Anschlüsse (Schließer) mit den Eingängen für 25%, 50%, 75% und 100% am Schaudt LT 316 verbinden.
 
 ## Flash-Anleitung
-1.  Installieren Sie die [ESP32 Unterstützung in der Arduino IDE](docs.espressif.com).
+1.  Installieren Sie die [ESP32 Unterstützung in der Arduino IDE](https://github.com/espressif/arduino-esp32/releases).
 2.  FTDI-Adapter verbinden (TX an RX, RX an TX, GND an GND).
 3.  **IO0-Taste** gedrückt halten, **Reset-Taste** kurz drücken, dann **IO0** loslassen (Download-Modus).
-4.  Code über die [Arduino IDE](www.arduino.cc) hochladen.
+4.  Code über die [Arduino IDE](https://www.arduino.cc) hochladen.
